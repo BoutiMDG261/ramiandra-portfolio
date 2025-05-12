@@ -14,7 +14,8 @@ export class PortfolioPageComponent implements OnInit {
     this.title.setTitle('Marco Ramiandraharivelo - Développeur Web Full Stack');
     this.meta.addTags([
       { name: 'description', content: 'Portfolio de Marco Tolotriniaina Ramiandraharivelo, développeur web full stack spécialisé en Angular et Node.js.' },
-      { name: 'robots', content: 'index, follow' }
+      { name: 'robots', content: 'index, follow' },
+      { name: 'google-site-verification', content: 'jwNYuhbxdve42DNY0XwugaWOcCfKmN4LLp1NQD5hPZs' }
     ]);
   }
 }
